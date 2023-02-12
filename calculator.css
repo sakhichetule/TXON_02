@@ -1,0 +1,102 @@
+body {
+	background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-mathematics-training-green-minimalist-education-background-image_783265.jpg);
+    
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    height:100vh;
+	
+	font-family: sans-serif;
+}
+
+.container {
+	
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+#container {
+	width: 200px;
+	
+	margin: 20px auto;
+	background-color: #030505ab;
+	border-radius: 5px;
+	border-top: 5px rgb(241, 60, 60);
+	border-right: 5px  rgb(238, 20, 20);
+	border-bottom: 5px  #ee4242;
+	border-left: 5px  #f13232df;
+	
+}
+
+#display {
+	margin-top: 20%;
+	margin:10px auto;
+	height: 42px;
+	width: 175px;
+	padding: 0 10px;
+	border-radius: 5px;
+	border-left: 2px solid #FFF;
+	background-color: rgba(192, 183, 183, 0.105);
+	
+	font-size: 28px;
+	color: rgb(255, 250, 250);
+	text-align: right;
+	font-weight: 500;
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.mathButtons {
+	margin: 2px 2px 6px 2px;
+	color: rgb(248, 238, 238);
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #434343;
+	border-top: 2px solid #850303;
+	border-right: 2px solid #C1C1C1;
+	border-bottom: 2px solid #181818;
+	border-left: 2px solid #181818;
+	
+}
+
+.digits {
+	color: #181818;
+	text-shadow: 1px 1px 0px #FFF;
+	background-color: #EBEBEB;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+	border-radius: 4px;
+	
+}
+
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #f61616;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #AE5700;
+	border-left: 2px solid #AE5700;
+}
+
+#clearButton {
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #D20000;
+	border-top: 2px solid #FF8484;
+	border-right: 2px solid #FF8484;
+	border-bottom: 2px solid #800000;
+	border-left: 2px solid #800000;
+}
